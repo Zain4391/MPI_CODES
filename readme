@@ -1,24 +1,37 @@
-# MPI_CODES
+# 🖧 MPI_CODES
 
 This repository contains a collection of **Message Passing Interface (MPI)** programs demonstrating various parallel computing paradigms, including **blocking**, **non-blocking**, and **collective communication**.
 
-## Features
+---
+
+## 🚀 Features
 
 - **Blocking Communication**: Synchronous send/receive operations.
 - **Non-Blocking Communication**: Asynchronous operations enabling computation and communication overlap.
 - **Collective Communication**: Operations like broadcast and gather for multi-process data exchange.
 
+---
 
-## Prerequisites
+## 🛠 Prerequisites
+
+Ensure you have the following installed:
 
 - **MPI Library**: [Open MPI](https://www.open-mpi.org/) or [MPICH](https://www.mpich.org/)
 - **C Compiler**: e.g., `gcc`
 
-## Installation
+---
+
+## 📦 Installation
+
+Follow these steps to run the programs:
 
 1. Clone this repository:
-   ```bash
+   ``` bash
    git clone https://github.com/Zain4391/MPI_CODES.git
    cd MPI_CODES
-2. mpicc -o output_file path/to/example.c
-3. mpiexec -n 4 ./output_file
+  ```
+
+``` bash
+mpicc -o output_file path/to/example.c
+mpiexec -n 4 ./output_file
+```
